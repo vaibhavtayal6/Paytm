@@ -1,38 +1,3 @@
-// const mongoose = require("mongoose");
-// const { string } = require("zod");
-
-// mongoose.connect ("mongodb+srv://vaibhavtayal8033:3HznVgDIakjHjHuy@vishu8033.dqfhr9q.mongodb.net/")
-
-// const userSchema =  mongoose.Schema({
-//     userame : "string",
-//     password : "string",
-//     firstName : "string",
-//     lastName : "string"
-// });
-// const User = mongoose.model("User" , userSchema);
-
-
-// const accountSchema  = mongoose.Schema({
-//     userId : {
-//         type : mongoose.Schema.Types.ObjectId,
-//         ref  : 'User',
-//         required : true  
-//     },
-//     balance : {
-//         type : Number , 
-//         required : true
-//     }
-// })
-
-// const  Account = mongoose.model('Account' , accountSchema);
-// module.exports ={
-//     User,
-//     Account,
-// };
-
-
-
-
 
 const mongoose = require('mongoose');
 
